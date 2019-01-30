@@ -1,0 +1,121 @@
+@charset "UTF-8"
+
+
+/*Utility classes*/
+
+.hidden{
+	display:none;
+}
+
+
+/*HTML selectors*/
+body{
+	font-family: 'Average Sans', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #333;
+	background-color: #fff;
+	border-top: 10px solid #333;
+}
+
+p{
+	line-height: 20px;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+/*Main Page Elements*/
+#siteContainer{
+	margin: 0 auto;
+	width:960px;
+}
+
+#mainHeader{
+	margin-top: 40px;
+	margin-bottom: 25px;
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+}
+
+#logo{
+	width:260px;
+	margin-top:5px;
+}
+
+#logo h1{
+	font-size: 44px;
+	color: red;
+	line-height: 45px;
+}
+
+#logoStudios{
+	font-size:60px;
+	color: #333;
+	letter-spacing: -1px;
+}
+
+#mainNav{
+	margin-left: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+#searchForm{
+	margin-bottom: 22px;
+	margin-left: auto;
+}
+
+#searchForm input{
+	width:150px;
+	padding:6px 15px 6px 35px;
+	background: url(../images/search_white.png) no-repeat 10px 6px #fcfcfc;
+	border: 1px solid #d1d1d1;
+	border-radius: 20px;
+	text-shadow: 0 2px 3px rgba(0,0,0,0.1);
+	box-shadow: 0 1px 3px rgba(0,0,0,0.15) inset;
+}
+
+#mainNav ul{
+	display: flex;
+	flex-direction: row;
+}
+
+#mainNav ul li a{
+	display: block;
+	width:100px;
+	background-color: red;
+	color: white;
+	margin-left: 20px;
+	padding: 8px;
+	text-align: center;
+	font-size: 16px;
+	text-transform: uppercase;
+	border-radius: 10px;
+
+	background: #ff3019;
+	background: -moz-linear-gradient(top, #ff3019 0%, #cf0404 100%); 
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff3019), color-stop(100%,#cf0404));
+	background: -webkit-linear-gradient(top, #ff3019 0%,#cf0404 100%);
+	background: -o-linear-gradient(top, #ff3019 0%,#cf0404 100%);
+	background: -ms-linear-gradient(top, #ff3019 0%,#cf0404 100%);
+	background: linear-gradient(to bottom, #ff3019 0%,#cf0404 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404',GradientType=0 );
+}
+
+#mainNav ul li a:hover{
+	background: rgb(226,29,22);
+	background: -moz-linear-gradient(top, rgba(226,29,22,1) 0%, rgba(170,8,3,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(226,29,22,1)), color-stop(100%,rgba(170,8,3,1)));
+	background: -webkit-linear-gradient(top, rgba(226,29,22,1) 0%,rgba(170,8,3,1) 100%);
+	background: -o-linear-gradient(top, rgba(226,29,22,1) 0%,rgba(170,8,3,1) 100%);
+	background: -ms-linear-gradient(top, rgba(226,29,22,1) 0%,rgba(170,8,3,1) 100%);
+	background: linear-gradient(to bottom, rgba(226,29,22,1) 0%,rgba(170,8,3,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e21d16', endColorstr='#aa0803',GradientType=0 );
+}
+
+#compInfo{
+	display:flex;
+}
